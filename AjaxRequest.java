@@ -1,7 +1,7 @@
-public Class AjaxRequest {
+锘縫ublic Class AjaxRequest {
 	
 	/**
-	* 判断请求是否是Ajax请求
+	* 鍒ゆ柇鏄惁鏄疉jax璇锋眰
 	*/
 	public boolean isAjax(HttpServletRequest request, HttpServletResponse response) {
 		String requestType = request.getHeader("X-Requested-With");
