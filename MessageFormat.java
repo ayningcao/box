@@ -1,7 +1,7 @@
-import java.util.Date;
+锘縤mport java.util.Date;
 
 /**
- * 演示在Java中格式化字符串的方法
+ * 婕旂ず鍦↗ava涓牸寮忓寲瀛楃涓茬殑鏂规硶
  * 
  * @author Alex
  *
@@ -11,7 +11,7 @@ public class MessageFormat {
 	public static void main(String[] args) {
 		String source = "My name is {0}, and today is {1}";
 		String output = java.text.MessageFormat.format(source, "Alex", new Date());
-		System.out.println(output); //output: My name is Alex, and today is 15-8-8 下午2:13
+		System.out.println(output); //output: My name is Alex, and today is 15-8-8 涓嬪崍2:13
 	}
 
 }
